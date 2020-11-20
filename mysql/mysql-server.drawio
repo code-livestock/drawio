@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-20T08:28:21.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="F6UypznCI0cbYiB8iykA" version="13.10.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-20T08:39:47.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7DauicZG6oeS58mU_Qy2" version="13.10.0" type="github">
   <diagram id="cG1zLcniToP_hmDPcGub" name="Page-1">
     <mxGraphModel dx="1698" dy="1095" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
       <root>
@@ -92,12 +92,6 @@
         </mxCell>
         <mxCell id="94" value="TempSpace" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="805" y="1075" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="98" value="&lt;ul&gt;&lt;li&gt;Value 1&lt;/li&gt;&lt;li&gt;Value 2&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;shadow=0;" parent="1" vertex="1">
-          <mxGeometry y="2700" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="99" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;" parent="1" vertex="1">
-          <mxGeometry y="3000" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
