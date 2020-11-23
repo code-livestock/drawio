@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T03:10:27.253Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="maTOI-yKrvJAVI2b3IaE" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T03:13:03.699Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="EPzGpCt0WALkNEl2QQNz" version="13.10.1" type="github">
   <diagram id="cG1zLcniToP_hmDPcGub" name="Page-1">
     <mxGraphModel dx="1698" dy="1095" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="26" value="Cache" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="200" y="250" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="YYKVmjmzSzn4PLZEIzqN-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="27" target="YYKVmjmzSzn4PLZEIzqN-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="27" value="Parser" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
           <mxGeometry x="510" y="250" width="100" height="100" as="geometry" />
         </mxCell>
@@ -24,12 +27,6 @@
             <mxGeometry x="150" y="155" width="500" height="60" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="36" value="Optimizer" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="420" y="402.5" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="37" value="Actuator" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" parent="1" vertex="1">
-          <mxGeometry x="200" y="502.5" width="100" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="45" value="Engine" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="160" y="650" width="500" height="80" as="geometry" />
         </mxCell>
@@ -98,6 +95,15 @@
         </mxCell>
         <mxCell id="YYKVmjmzSzn4PLZEIzqN-99" value="Redo Log File" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF88;" vertex="1" parent="1">
           <mxGeometry x="550" y="1450" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YYKVmjmzSzn4PLZEIzqN-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYKVmjmzSzn4PLZEIzqN-102" target="YYKVmjmzSzn4PLZEIzqN-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YYKVmjmzSzn4PLZEIzqN-102" value="&lt;span&gt;Optimizer&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="510" y="430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YYKVmjmzSzn4PLZEIzqN-104" value="Actuator&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
