@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T03:23:39.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="WXEQhqiEY9wdmJueOPHv" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T03:27:41.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="CNkUYkdO9ob1OUTjPHDE" version="13.10.1" type="github">
   <diagram id="cG1zLcniToP_hmDPcGub" name="Page-1">
     <mxGraphModel dx="1698" dy="1095" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
       <root>
@@ -96,7 +96,7 @@
         <mxCell id="YYKVmjmzSzn4PLZEIzqN-99" value="Redo Log File" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF88;" vertex="1" parent="1">
           <mxGeometry x="550" y="1450" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="YYKVmjmzSzn4PLZEIzqN-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYKVmjmzSzn4PLZEIzqN-102" target="YYKVmjmzSzn4PLZEIzqN-104">
+        <mxCell id="YYKVmjmzSzn4PLZEIzqN-105" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YYKVmjmzSzn4PLZEIzqN-102" target="YYKVmjmzSzn4PLZEIzqN-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YYKVmjmzSzn4PLZEIzqN-102" value="&lt;span&gt;Optimizer&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
