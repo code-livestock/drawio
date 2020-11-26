@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T04:21:42.228Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="MCd-cQxANlzoZIBjjutB" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T07:12:10.691Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="VKeFk1kzmot5YcGk_xdu" version="13.10.2" type="github">
   <diagram id="cG1zLcniToP_hmDPcGub" name="Page-1">
-    <mxGraphModel dx="1698" dy="1095" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
+    <mxGraphModel dx="2466" dy="1463" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,6 +154,168 @@
               <mxPoint x="640" y="790" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-94" value="Undo Log" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-352.5" y="2020" width="700" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WxQg_2VNLPGoq3J2vWz-174" target="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-173" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2100" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-174" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-173">
+          <mxGeometry width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-175" value="&lt;span&gt;field_1&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-176" value="&lt;span&gt;field_2&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry x="68" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-177" value="&lt;span&gt;field_3&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry x="137" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-178" value="delete_flag" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry x="205" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-179" value="tx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry x="273" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-180" value="roll_ptr" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-174">
+          <mxGeometry x="342" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WxQg_2VNLPGoq3J2vWz-189" target="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-188" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2180" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-189" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-188">
+          <mxGeometry width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-190" value="field_1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-191" value="field_2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry x="68" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-192" value="field_3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry x="137" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-193" value="delete_flag" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry x="205" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-194" value="tx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry x="273" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-195" value="roll_ptr" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-189">
+          <mxGeometry x="342" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WxQg_2VNLPGoq3J2vWz-212" target="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-211" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2300" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-212" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-211">
+          <mxGeometry width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-213" value="field_1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-214" value="field_2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry x="68" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-215" value="field_3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry x="137" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-216" value="delete_flag" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry x="205" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-217" value="tx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry x="273" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-218" value="roll_ptr" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-212">
+          <mxGeometry x="342" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-227" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="2400" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-228" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-227">
+          <mxGeometry width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-229" value="field_1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-230" value="field_2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry x="68" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-231" value="field_3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry x="137" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-232" value="delete_flag" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry x="205" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-233" value="tx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry x="273" width="69" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-234" value="roll_ptr" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-228">
+          <mxGeometry x="342" width="68" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-237" value="ReadView" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="469.5" y="2020" width="1430.5" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-258" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2100" width="473" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-259" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-258">
+          <mxGeometry width="473" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-260" value="字段" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-259">
+          <mxGeometry width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-261" value="说明" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-259">
+          <mxGeometry x="173" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-262" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-258">
+          <mxGeometry y="40" width="473" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-263" value="m_ids" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-262">
+          <mxGeometry width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-264" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;表示在生成&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;时当前系统中活跃的读写事务的&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;事务id&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;列表&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-262">
+          <mxGeometry x="173" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-265" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-258">
+          <mxGeometry y="100" width="473" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-266" value="min_trx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-265">
+          <mxGeometry width="173" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-267" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;表示在生成&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;时当前系统中活跃的读写事务中最小的&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;事务id&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;，也就是&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;m_ids&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;中的最小值&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-265">
+          <mxGeometry x="173" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-268" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-258">
+          <mxGeometry y="200" width="473" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-269" value="max_trx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-268">
+          <mxGeometry width="173" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-270" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;表示生成&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;时系统中应该分配给下一个事务的&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;值。&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-268">
+          <mxGeometry x="173" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-271" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-258">
+          <mxGeometry y="300" width="473" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-272" value="creator_trx_id" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-271">
+          <mxGeometry width="173" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-273" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;表示生成该&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left&quot;&gt;的事务的&lt;/span&gt;&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; color: rgb(51 , 51 , 51) ; text-align: left ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;事务id&lt;/code&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="4WxQg_2VNLPGoq3J2vWz-271">
+          <mxGeometry x="173" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WxQg_2VNLPGoq3J2vWz-282" value="&lt;ul&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;如果被访问版本的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;trx_id&lt;/code&gt;属性值与&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;中的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;creator_trx_id&lt;/code&gt;值相同，意味着当前事务在访问它自己修改过的记录，所以该版本可以被当前事务访问。&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;如果被访问版本的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;trx_id&lt;/code&gt;属性值小于&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;中的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;min_trx_id&lt;/code&gt;值，表明生成该版本的事务在当前事务生成&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;前已经提交，所以该版本可以被当前事务访问。&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;如果被访问版本的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;trx_id&lt;/code&gt;属性值大于或等于&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;中的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;max_trx_id&lt;/code&gt;值，表明生成该版本的事务在当前事务生成&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;后才开启，所以该版本不可以被当前事务访问。&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;如果被访问版本的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;trx_id&lt;/code&gt;属性值在&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;的&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;min_trx_id&lt;/code&gt;和&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;max_trx_id&lt;/code&gt;之间，那就需要判断一下&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;trx_id&lt;/code&gt;属性值是不是在&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;m_ids&lt;/code&gt;列表中，如果在，说明创建&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;时生成该版本的事务还是活跃的，该版本不可以被访问；如果不在，说明创建&lt;code style=&quot;margin: 1px 5px ; line-height: 1.8 ; vertical-align: middle ; display: inline-block ; overflow-x: auto ; padding: 0px 5px ; font-family: &amp;#34;courier new&amp;#34; , sans-serif &amp;#34;important&amp;#34; ; background-color: rgb(245 , 245 , 245) ; border: 1px solid rgb(204 , 204 , 204) ; border-radius: 3px&quot;&gt;ReadView&lt;/code&gt;时生成该版本的事务已经被提交，该版本可以被访问。&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1135.75" y="2120" width="565.25" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
