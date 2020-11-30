@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T09:13:25.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Mfk0n66oPdbAfq1o2Oht" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T09:57:19.379Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="89JvJAFtvz3V77ouV7Tr" version="13.10.1" type="github">
   <diagram id="cG1zLcniToP_hmDPcGub" name="Page-1">
     <mxGraphModel dx="2466" dy="1586" grid="1" gridSize="100" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#8A8A8A" math="0" shadow="0">
       <root>
@@ -320,9 +320,11 @@
         <mxCell id="4WxQg_2VNLPGoq3J2vWz-285" value="&lt;ul&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;&lt;p style=&quot;margin: 10px auto ; padding: 0px&quot;&gt;READ COMMITTED —— 每次读取数据前都生成一个ReadView&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin: 0px ; padding: 0px ; list-style-type: disc&quot;&gt;&lt;p style=&quot;margin: 10px auto ; padding: 0px&quot;&gt;REPEATABLE READ —— 在第一次读取数据时生成一个ReadView&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;align=left;" parent="1" vertex="1">
           <mxGeometry x="973" y="2520" width="627" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UR0hmFrSf-d1s-WmVlPi-94" value="事务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="2800" width="900" height="700" as="geometry" />
-        </mxCell>
+        <UserObject label="事务" link="https://dbaplus.cn/news-11-2518-1.html" id="UR0hmFrSf-d1s-WmVlPi-94">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+            <mxGeometry x="-400" y="2800" width="900" height="700" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="UR0hmFrSf-d1s-WmVlPi-95" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="-352" y="2900" width="752" height="160" as="geometry" />
         </mxCell>
